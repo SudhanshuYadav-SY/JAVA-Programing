@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class calculate_circle_Area{
+    public static void main(String[] args){
+        float radius;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value of radius");
+        radius=sc.nextFloat();
+        area=Math.pi*radiius*radius;
+        System.out.println(area);
+        
+    
+    }
+}
