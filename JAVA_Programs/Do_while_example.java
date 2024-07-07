@@ -12,7 +12,7 @@ public class Do_while_example {
         // do-while loop
         do {
             System.out.println(number);
-            number =number+3;
+            number+=5;
         } while (number <= 50);
     }
 }
