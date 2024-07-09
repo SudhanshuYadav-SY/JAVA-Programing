@@ -13,9 +13,9 @@ public class Types_Of_Typecasting
 {
     public static void main(String[] args)
     {
-        long b = 9;                                 //Example of Implicit Typecasting
+        double b = 9.19F;                                       //Example of Implicit Typecasting
         System.out.println(b);
-        int a = (int) 9L;                           //Example of Explicit Typecasting
+        int a = (int) 9L;                                       //Example of Explicit Typecasting
         System.out.println(a);
     }
 }
