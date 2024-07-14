@@ -9,6 +9,7 @@ public class Enclose_Variables_and_Methods
     public static void main(String[] args)
     {
         int c = 90;
+        methodA();
         System.out.println("Sum of "+a+" , "+b+" And "+c+" = "+(a+b+c));
     }
 }
