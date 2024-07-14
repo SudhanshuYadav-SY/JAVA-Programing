@@ -1,7 +1,7 @@
 public class Enclose_Variables_and_Methods
 {
     static int a = 78, b = 93;
-    public static void methodA()
+    public  void methodA()
     {
         System.out.println("Inside Method A");
     }
