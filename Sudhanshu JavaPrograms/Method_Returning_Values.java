@@ -6,7 +6,7 @@ public class Method_Returning_Values
     {
         int Sum = 0 ;
         Sum += a + b ;
-        return Sum ;
+        //return Sum ;
     }
 
     public static void main(String[] args)
