@@ -11,6 +11,11 @@ public class Method_Returning_Values
 
     public static void main(String[] args)
     {
-        System.out.println("Actual Sum of 2 Numbers = "+Sum(7,9));
+        int a , b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of A and B");
+        a = sc.nextInt();
+        b = sc.nextInt();
+        System.out.println("Actual Sum of "+a+" & "+b+" = "+Sum(a,b));
     }
 }
