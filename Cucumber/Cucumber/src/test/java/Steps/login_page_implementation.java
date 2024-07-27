@@ -6,7 +6,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -69,8 +68,9 @@ public class login_page_implementation
         }
     }
     @Then("Finally User closes the browser")
-    public void finally_user_closes_the_browser()
+    public void finally_user_closes_the_browser() throws InterruptedException
     {
+        Thread.sleep(3000);
         driver.quit();
     }
 }
